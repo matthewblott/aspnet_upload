@@ -7,8 +7,7 @@ namespace aspnet_skeleton
 {
   public class Startup
   {
-    public void ConfigureServices(IServiceCollection services) => 
-      services.AddMvc().AddRazorRuntimeCompilation();
+    public void ConfigureServices(IServiceCollection services) => services.AddMvc().AddRazorRuntimeCompilation();
 
     public void Configure(IApplicationBuilder app)
     {
