@@ -1,0 +1,17 @@
+@model UserViewModel
+
+<form method="post" asp-action="Create">
+  <label asp-for="Username"></label>
+  <input asp-for="Username">
+  <label asp-for="Email"></label>
+  <input asp-for="Email">
+  <label asp-for="Password"></label>
+  <input asp-for="Password">
+  <label asp-for="PasswordCompare"></label>
+  <input asp-for="PasswordCompare">
+
+  <div>
+    <button>Submit</button>
+  </div>
+  
+</form>
